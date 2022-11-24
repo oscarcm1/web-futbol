@@ -1,0 +1,66 @@
+/*================== Aviso de Privacidad ===============*/
+
+/*===============Tamaño Texto y Tipografia=============*/
+.parrafo1 p{
+text-align: justify;
+font-family: "Ravensara Sans";
+font-size: 20px;
+font-weight: 900;
+
+}
+/*===============Tamaño Letras=======================*/
+.negritas{
+    display:inline; 
+    color: #000000;
+    font-size: 4vmin;
+    font-weight: bold;
+   
+   }
+/*=============Tipo Letra y Tamaño Parrafo===========*/
+   article{
+
+    font-family: "Ravensara Sans";
+    text-align: justify;
+    padding: 0px 30px 0px;
+    font-weight: 500;
+    margin: 0;
+   }
+ 
+/*=======================Titulo=======================*/
+.title{
+    width: 100%;
+
+}
+.title p{
+    text-align: center;
+    font-weight: 900;
+}
+/*==============Titulo SubRayado=======================*/
+p.sub{
+    text-decoration: underline;
+}
+/*==================Color Correo=======================*/
+   .azul{
+       color: blue;
+       text-decoration: underline;
+       display:inline; 
+   }
+/*=======================Parrafo=======================*/
+   article{
+    display: inline-block;
+    margin: 0px;
+
+   }
+/*======Titulo Aviso de Privacidad====================*/
+   .private h2{
+       width: 100%;
+       color: #000000;
+       background-color: rgb(255, 255, 255);
+      position: fixed;
+       clear: both;
+       margin-top: 0px;
+       padding-top: 0px;
+       overflow: visible;
+       top:95%;
+      
+   }

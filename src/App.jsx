@@ -1,34 +1,62 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import './css/App.css';
+import { Nosotros } from './Nosotros';
+import ScrollToTop from './ScrollToTop';
+import { Servicios } from './Servicios';
+import { Portafolio } from './Portafolio';
+import { Formulario } from './Formulario';
+import Navbar from './Navbar';
+import Menu from './Menu';
+import './css/a.css';
+import NotFound from './NotFound';
+import Precios from './Precios';
+import Privacidad from './AvisoPrivacidad';
 
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import SoftwareMedida from './SoftwareMedida';
+import AplicacionesMoviles from './AplicacionesMoviles';
+import Consultoria from './Consultoria.js'
+/* Estructura de la página web y Rutas */
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
-}
 
-export default App
+    <div className="App">
+      <Router>
+        
+    
+
+        <ScrollToTop />
+      
+        <main>
+          <Switch>
+            <Route exact path="/">  <Navbar />   </Route>          
+            <Route exact path="/nosotros"> <Menu /> <Nosotros />   </Route>
+            <Route exact path="/contacto"> <Menu />  <Formulario />   </Route>        
+            <Route exact path="/portafolio"> <Menu />  <Portafolio />   </Route>
+            <Route exact path="/servicios"> <Menu />  <Servicios />   </Route>
+            <Route exact path="/precios"> <Menu />  <Precios />   </Route>
+            <Route exact path="/softwareMedida"> <Menu />  <SoftwareMedida />   </Route>
+            <Route exact path="/aplicacionesMoviles"> <Menu />  <AplicacionesMoviles />   </Route>
+            <Route exact path="/consultoria"> <Menu />  <Consultoria />   </Route>
+
+            <Route exact path="/aviso-privacidad"> <Menu />  <Privacidad />   </Route>
+          
+          
+         
+         
+            <Route component={NotFound} />
+
+
+          </Switch>
+          <ScrollToTop />
+        </main>
+      </Router>
+
+       
+    
+    </div>
+
+  );
+}
+export default App;

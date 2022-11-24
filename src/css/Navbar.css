@@ -1,0 +1,691 @@
+/*=========================Menu Principal================================*/
+
+
+.padre {
+  background: rgba(78,78,78,.2823529411764706);
+  width: calc(100% - 10%);
+  margin-left: 5%;
+  margin-top: 5%;
+  height: calc(100% - 20%);
+  justify-content: center;
+  align-items: center;
+}
+.logo-home img {
+  width: 20%;
+  height: 10%;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.titulo {
+  display: flex;
+}
+.subtitulo-home h1 {
+  color: #000000;
+  font-size: 2rem;
+  margin-top: 10px;
+  font: 24px georgia, times, serif;
+  text-align: center;
+}
+
+.content-foo.black {
+  display: flex;
+  margin-top: 0%;
+  width: 100%;
+}
+
+.content-foo.black a {
+  margin-bottom: 20px;
+  padding: 30px;
+  text-decoration: none;
+}
+
+/*=========================Redes Sociales================================*/
+
+.iconify.iconify--fa-brands,
+.iconify.iconify--ion,
+.iconify.iconify--bx,
+.iconify.iconify--eva,
+.iconify.iconify--zmdi,
+.iconify.iconify--jam {
+  color: #070707be;
+  text-decoration: none;
+  font-size: 24px;
+}
+.iconify.iconify--fa-brands:hover,
+.iconify.iconify--ion:hover,
+.iconify.iconify--bx:hover,
+.iconify.iconify--eva:hover,
+.iconify.iconify--zmdi:hover,
+.iconify.iconify--jam:hover {
+  color: #000000;
+}
+.content-foo.black h3 {
+  text-align: left;
+}
+
+
+
+
+/*=========================Menú Pantalla Completa================================*/
+nav {
+  align-items: center;
+  font-weight: 520;
+  padding-right: 70px;
+  width: 100%;
+}
+.nav__items {
+  color: #f2e205;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px 3px;
+  margin-bottom: -25px;
+}
+.navbar {
+  width: calc(100% - 200px);
+  z-index: 100;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+/*=========================Colores Menú================================*/
+
+.nav-links:hover {
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  background-color: #f2b21d;
+  transition: all 0.2s ease-out;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+.nav-links-mobile {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+/*=========================Logo Tamaño================================*/
+.navbar .navbar-logo img {
+  position: absolute;
+  left: 3%;
+  top: 0;
+  width: 110px;
+}
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  align-items: center;
+  font-weight: 520;
+}
+
+.nav__items {
+  color: #f2e205;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px 3px;
+  margin-bottom: -25px;
+}
+nav > a {
+  color: #ffffff;
+  margin-right: 10px;
+  font-weight: bold;
+}
+/* *************Color Barra Menú y fondo banner*********************/
+
+/* **********************************************/
+
+.footer-logo {
+  visibility: hidden;
+}
+
+.nav-menu {
+  display: flex;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: right;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+/* Tamaño Letra Menu*/
+.nav-item p {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-item:hover p {
+  font-weight: bold;
+  color: #000000;
+  font-weight: 900;
+}
+
+/* Color Letra Menu*/
+.nav-links {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links h2 {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+}
+
+/* Color Botones Menu*/
+.nav-links:hover {
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  background-color: #f2b21d;
+
+  transition: all 0.2s ease-out;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/**color fondo cotizar menu**/
+.nav-item.cot {
+  background-color: rgb(49, 49, 48);
+}
+
+.nav-links:hover h2 {
+  font-size: 18px;
+  color: rgb(70, 70, 70);
+}
+
+.nav-item.mod {
+  position: fixed;
+  background-color: #000000f1;
+  width: 100%;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 3;
+}
+
+.footer-logo {
+  position: fixed;
+  background-color: #ffffff00;
+  bottom: 0;
+  width: 100%;
+}
+.footer-logo img {
+  width: 100px;
+  height: 30px;
+  top: 200px;
+}
+
+/*=========================MEDIA QUERIES 2K================================*/
+@media (max-width: 2560px) {
+  .padre {
+   background: rgba(78,78,78,.2823529411764706);
+  width: calc(100% - 10%);
+  margin-left: 5%;
+  margin-top: 5%;
+  height: calc(100% - 20%);
+  justify-content: center;
+  align-items: center;
+  }
+
+  
+  /*=========================Logo Tamaño================================*/
+
+  
+
+
+/*=========================Redes Sociales================================*/
+
+.iconify.iconify--fa-brands,
+.iconify.iconify--ion,
+.iconify.iconify--bx,
+.iconify.iconify--eva,
+.iconify.iconify--zmdi,
+.iconify.iconify--jam {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.iconify.iconify--fa-brands:hover,
+.iconify.iconify--ion:hover,
+.iconify.iconify--bx:hover,
+.iconify.iconify--eva:hover,
+.iconify.iconify--zmdi:hover,
+.iconify.iconify--jam:hover {
+  color: #000000;
+}
+.content-foo.black h3 {
+  text-align: left;
+}
+
+
+.container .box {
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .box .title {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 10%;
+}
+
+.container .box .title h1 {
+
+  color: rgb(0, 0, 0);
+  font-size: 640px;
+  -webkit-animation: mainFadeIn 2s forwards;
+  -o-animation: mainFadeIn 2s forwards;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 1.6s;
+  opacity: 0;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+}
+
+
+.container .box .role p {
+  animation: secFadeIn 2s forwards;
+  animation-delay: 3.2s;
+  opacity: 0;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  
+}
+
+.logo-home img {
+  width: 20%;
+  height: 10%;
+  justify-content: center;
+  margin-top: 0%;
+}
+
+.content-foo.black {
+  margin-top: 12%;
+}
+
+
+}
+
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width: 1346px) {
+  .padre {
+   background: #ffffff48;
+  width: calc(100% - 10%);
+  margin-left: 5%;
+  margin-top: 5%;
+  height: calc(100% - 20%);
+  justify-content: center;
+  align-items: center;
+  }
+
+  .logo-home img {
+    width: 25%;
+    height: 10%;
+    justify-content: center;
+    margin-top: 0%;
+  }
+
+  .content-foo.black {
+    margin-top:  10%;
+  }
+  
+
+  /*=========================Redes Sociales================================*/
+
+.iconify.iconify--fa-brands,
+.iconify.iconify--ion,
+.iconify.iconify--bx,
+.iconify.iconify--eva,
+.iconify.iconify--zmdi,
+.iconify.iconify--jam {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+.iconify.iconify--fa-brands:hover,
+.iconify.iconify--ion:hover,
+.iconify.iconify--bx:hover,
+.iconify.iconify--eva:hover,
+.iconify.iconify--zmdi:hover,
+.iconify.iconify--jam:hover {
+  color: #060606;
+}
+.content-foo.black h3 {
+  text-align: left;
+}
+
+
+
+}
+
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+@media (max-width: 960px) {
+  .private {
+    visibility: hidden;
+  }
+
+  .logo-home img {
+    width: 20%;
+    height: 10%;
+    justify-content: center;
+    margin-top: 0%;
+  }
+
+  .content-foo.black {
+    margin-top:   5%;
+  }
+  
+
+  .padre {
+    background: #ffffff48;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20%;
+    height: calc(100% - 50%);
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    position: relative;
+  }
+
+
+  .footer-logo {
+    visibility: visible;
+  }
+
+  .navbar {
+    background-color: #ffffffec;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  nav {
+    position: absolute;
+    height: 70px;
+    padding-right: 0px;
+  }
+
+  .NavbarItems {
+    position: relative;
+  }
+  /* *************Menu Movil*************/
+  .nav-menu {
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    background: #f2e205;
+    z-index: 4;
+  }
+  .nav-menu.active {
+    position: fixed;
+    background-color: #f8f8f8f1;
+    width: 100%;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 3;
+  }
+  /* *************Texto Menu************/
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    color: #ffffff;
+  }
+  .nav-links:hover {
+    background-color: #f2e205;
+  }
+  /* *************Icono Hamburguesa ************/
+  .menu-icon {
+    position: relative;
+    display: block;
+
+    font-size: 1.8rem;
+    cursor: pointer;
+    -webkit-transform: translate(-100%, 50%);
+    -moz-transform: translate(-100%, 50%);
+    -ms-transform: translate(-100%, 50%);
+    -o-transform: translate(-100%, 50%);
+    transform: translate(-100%, 50%);
+  }
+  /* *************Color Icono ************/
+  .bi-list {
+    position: absolute;
+    color: #ffc52f;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    width: 80%;
+    background-color: #f2e205;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    z-index: 4;
+  }
+  .nav-links-mobile:hover {
+    background: #f2e205;
+    color: #0d0d0d;
+    transition: 250ms;
+    font-weight: bold;
+  }
+  button {
+    display: none;
+  }
+
+  .footer-logo {
+    position: fixed;
+    background-color: #ffffff;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-logo img {
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+    top: 200px;
+  }
+
+  .footer-logo2 {
+    position: fixed;
+    background-color: #ffffff;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .private h2 {
+    position: fixed;
+    background-color: #ffffff;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 768px) {
+
+
+  .padre {
+    background: #ffffff48;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 45%);
+  }
+
+  .logo-home img {
+    width: 30%;
+    height: 10%;
+    justify-content: center;
+    margin-top: 0%;
+  }
+
+  .content-foo.black {
+    margin-top:   5%;
+  }
+  
+}
+@media (max-width: 576px) {
+  .footer-logo {
+    visibility: visible;
+  }
+
+  .private {
+    visibility: hidden;
+  }
+
+  /*Fondo transparente */
+  .padre {
+    background: #ffffff48;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 35%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 45%);
+  }
+  .nav-item p {
+    font-weight: bold;
+    color: #000000;
+  }
+  /**********************NAV BAR********************************************/
+  .navbar {
+    background-color: #ffffffec;
+    position: fixed;
+    height: 81px;
+    top: 0;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .NavbarItems {
+    position: relative;
+  }
+
+  .content-foo.black a {
+    padding: 10px;
+  }
+
+  .logo-home img {
+    width: 40%;
+    height: 25%;
+    margin-top: 0%;
+  }
+  .content-foo.black {
+    margin-top:   10%;
+  }
+  
+
+}
+
+
+
+@media (max-width: 360px) {
+  .footer-logo {
+    visibility: visible;
+  }
+
+  .private {
+    visibility: hidden;
+  }
+
+  /*Fondo transparente */
+  .padre {
+    background: #ffffff48;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 50%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 45%);
+  }
+  .nav-item p {
+    font-weight: bold;
+    color: #000000;
+  }
+  /**********************NAV BAR********************************************/
+  .navbar {
+    background-color: #ffffffec;
+    position: fixed;
+    height: 81px;
+    top: 0;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .NavbarItems {
+    position: relative;
+  }
+
+  
+  .logo-home img {
+    width: 50%;
+    justify-content: center;
+    margin-top: 15%;
+  }
+
+  .content-foo.black {
+    margin-top:   15%;
+  }
+  
+
+}

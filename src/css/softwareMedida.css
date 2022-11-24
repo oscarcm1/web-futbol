@@ -1,0 +1,60 @@
+.description{
+	color: #ffffff;
+	/* margin-top: 20px; */
+	margin-left: 0px;
+    font-weight: bolder;
+	text-align: justify;
+}
+.pricingTable-firstTable_table{
+background-color: #044287
+}
+.container .box .role p{
+	color: black;
+}
+.container2{
+    background-color: white !important;
+}
+
+.container-portada-servicios {
+	background-image: url("../img/fondo2.png");
+	height: 130vh;
+    position: absolute;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: movimiento 20s infinite linear alternate; 
+}
+
+.section{
+	background-color: transparent;
+}
+
+.pricingTable-firstTable_table:nth-of-type(2):before {
+    content: 'Más eficiente';
+    position: absolute;
+    color: rgb(0, 0, 0);
+    display: block;
+    background-color: #f2e205;
+    text-align: center;
+    right: 5px;
+    top: -40px;
+    height: 70px;
+    width: 85px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    /* font-size: 0.6em; */
+    font-weight: bold;
+    padding-top: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    transition: all 0.5s ease;
+    z-index: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .container-portada-servicios{
+        height: 170vh;
+       }
+}
