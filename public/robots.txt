@@ -1,0 +1,4 @@
+# https://www.delfos369.com/robots.txt
+
+User-agent: *
+Allow: /

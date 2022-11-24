@@ -1,0 +1,75 @@
+/*===================Tipografía Corporativa Delfos 369==========================*/
+@font-face {
+  font-family: "Ravensara Sans";
+  src: local("Ravensara Sans Light"), local("./Ravensara-Sans-Light"),
+    url("RavensaraSansLight.woff2") format("woff2"),
+    url("RavensaraSansLight.woff") format("woff"),
+    url("RavensaraSansLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --colorTextos: #0d0d0d;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body,
+p,
+h2,
+h1,
+article {
+  font-family: "Ravensara Sans";
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(49, 49, 48);
+  font-display: swap;
+  /*  font-weight: 600; letras en negritas  */
+}
+/*===================Página Not Found 404==========================*/
+.not-found {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+}
+.not-found h1,
+h2 {
+  position: relative;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+
+}
+/*===================Contenedor  Imagen Fondo==========================*/
+
+.container-portada {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../img/fonde3.jpg") !important;
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: movimiento 20s infinite linear alternate; 
+}
+/*===================Movimiento Imagen Menu Principal==========================*/
+@keyframes movimiento {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: top right;
+  }
+}
+
+
+

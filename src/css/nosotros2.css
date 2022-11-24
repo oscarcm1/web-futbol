@@ -1,0 +1,41 @@
+/*===============Contenido Nosotros=======================*/
+#content { 
+    overflow:auto; 
+    width: 100%; 
+    margin-top: 0; 
+    padding: 20px 150px  0px;
+ 
+  } 
+/*===============Imagen   Nosotros=======================*/
+  .nosotros_img img{
+width: 400px;
+  }
+
+  .nosotros_img2 img{
+    width: 400px;
+    
+      }
+  .section1{
+      background-color: rgb(255, 255, 255);
+  }
+  .section2{
+      background-color: #dddada;
+  }
+/*===============Responsive Movil=======================*/
+  @media screen and (max-width: 960px) {
+      #content { 
+        overflow:auto; 
+        width: 100%; 
+        margin-top: 0; 
+        padding: 0px; 
+      } 
+/*=========Imagen   Nosotros Movil=====================*/
+      .nosotros_img img{
+        width: 300px;
+        margin-top: 0px;
+          }
+          .nosotros_img2 img{
+            width: 300px;
+            
+              }
+    }
